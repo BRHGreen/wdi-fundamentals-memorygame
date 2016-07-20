@@ -1,0 +1,91 @@
+a.navBar {
+	background-color: #ffbf00;
+	color: white;
+	text-decoration: none; /*gets rid of all the text formatting*/
+	display: block;/* changes the anchors from their default inline dispay to block elements. This means they break into their own new lines and can have width assigned to them*/
+	float: left;	/*this causes them to be collapsed to the content within them*/
+	padding:35px;
+	width: 100px;
+	text-align: center;
+	margin: 0 auto;
+}
+nav {
+	background-color: #aaaaaa;
+	font-family: Arial, sans-serif;
+}
+.clearfix:after {		
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+	background-color: #808080;
+}
+a:hover { /*this is a pseudo class means that the declorations within it only occur when the codition is met*/
+	background-color: #ee5f3c;
+}
+h1 {
+	color: rgb(2, 132, 130);
+	font-size: 2em;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+h2 {
+	color:#FFD700;
+	font-size: 1.5em;
+	padding: 10px;
+}
+a#here {
+	text-decoration: none;
+	color: red;
+}
+
+.board {
+	height: 50%;
+	width: 50%;
+	display: inline-block;
+	margin: 0 auto;
+	float: left;
+	margin: 8%;
+}
+
+.card {
+	height: 200px;
+	width: 150px;
+	border: 1px solid black;
+	background-color: rgb(255,255,0);
+	border-radius: 10px;
+	margin: 0 auto;
+	margin: 20px;
+	float: left;
+
+}
+p, h1, h2, h3 {
+	text-align: center;
+}
+
+p.myName {
+	padding-bottom: 50px;
+	font-family: playball;
+}
+
+span {
+	color: green;
+}
+footer {
+	background-color: #808080;
+	text-align: center;
+	clear: both;
+}
+img {
+	height: 50px;
+	width: 50px;
+	margin-bottom: -20px;
+	padding: 10px;
+}
+
+
+
+
