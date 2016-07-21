@@ -4,3 +4,9 @@ var cardTwo = "King";
 var cardThree = "Queen";
 var cardFour = "Queen";
 
+if (cardTwo == cardFour) {
+	alert('you found a match!');
+}
+else {
+	alert('play again?')
+}
