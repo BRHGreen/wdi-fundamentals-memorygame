@@ -45,9 +45,10 @@ a#here {
 .board {
 	height: 500px;
 	width: 400px;
-	display: inline;
+	display: block;
 	margin: 0 auto;
-	float: left;
+	float: center;
+
 }
 
 .card {
