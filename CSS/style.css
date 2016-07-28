@@ -22,7 +22,7 @@ nav {
 	font-size: 0;
 	background-color: #808080;
 }
-a:hover { /*this is a pseudo class means that the declorations within it only occur when the codition is met*/
+.clearfix a:hover { /*this is a pseudo class means that the declorations within it only occur when the codition is met*/
 	background-color: #ee5f3c;
 }
 h1 {
@@ -43,12 +43,11 @@ a#here {
 }
 
 .board {
-	height: 50%;
-	width: 50%;
-	display: inline-block;
+	height: 500px;
+	width: 400px;
+	display: inline;
 	margin: 0 auto;
 	float: left;
-	margin: 8%;
 }
 
 .card {
@@ -62,6 +61,14 @@ a#here {
 	float: left;
 
 }
+.CardPics{ 
+	height: 200px;
+	width: 150px;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 0 auto;
+	float: left;
+ }
 p, h1, h2, h3 {
 	text-align: center;
 }
@@ -79,7 +86,8 @@ footer {
 	text-align: center;
 	clear: both;
 }
-img {
+
+img.GreenCOA {
 	height: 50px;
 	width: 50px;
 	margin-bottom: -20px;
